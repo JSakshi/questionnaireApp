@@ -75,6 +75,7 @@ To run all the tests:
  - Another endpoint can be added to return the answers to the questionnaire
  - The endpoint can be improved by including pagination and return desired amount of questions
  - Ideally the service will be connected to a database for fetching the questionnaire
+ - Configuration files can be introduced to control the behavior of the service. For ex: the `ip` and `port` can be moved to `appSettings.json` file.
  - Api can be secured by OAuth/API key 
 
 

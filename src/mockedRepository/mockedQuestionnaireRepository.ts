@@ -1,15 +1,18 @@
-
 import { QuestionnaireRepository } from "../models/interfaces/questionRepository";
+export class MockedQuestionnaireRepo implements QuestionnaireRepository {
+  getQuestionnaireTitle(): string {
+    return "Geography Questions";
+  }
 
-export class MockedQuestionnaireRepo implements QuestionnaireRepository{
+  getQuestionsList(): string[] {
+    return [
+      "What is the capital of Cuba?",
 
-    getQuestionnaireTitle(): string {
-        return 'Mocked Title';
-    }
+      "What is the capital of France?",
 
-    getQuestionsList(): string[] {
-        return ['Mocked Question 1', 'Mocked Question 2', 'Mocked Question 3', 'Mocked Question 4'];
-    }
+      "What is the capital of Poland?",
 
-
+      "What is the capital of Germany?",
+    ];
+  }
 }
