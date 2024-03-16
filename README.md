@@ -35,25 +35,25 @@ The service has two get endpoints:
 
 2. `/api/questions` - This endpoint will return a set of questions in the following format:
 
-        ```json
-        {
+```json
+{
 
-        "questionnaireTitle": "Geography Questions",
+"questionnaireTitle": "Geography Questions",
 
-        "questionsText": [
+"questionsText": [
 
-        "What is the capital of Cuba?",
+"What is the capital of Cuba?",
 
-        "What is the capital of France?",
+"What is the capital of France?",
 
-        "What is the capital of Poland?",
+"What is the capital of Poland?",
 
-        "What is the capital of Germany?"
+"What is the capital of Germany?"
 
-        ]
+]
 
-        }
-        ```
+}
+```
 
 # Testing
 
